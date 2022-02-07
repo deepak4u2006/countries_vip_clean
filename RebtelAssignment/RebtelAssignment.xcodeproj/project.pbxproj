@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		212ECEF527A0556900BB66A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212ECEF427A0556900BB66A0 /* AppDelegate.swift */; };
+		212ECEFC27A0556900BB66A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212ECEFA27A0556900BB66A0 /* Main.storyboard */; };
+		212ECEFE27A0556D00BB66A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 212ECEFD27A0556D00BB66A0 /* Assets.xcassets */; };
+		212ECF0127A0556D00BB66A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 212ECEFF27A0556D00BB66A0 /* LaunchScreen.storyboard */; };
+		212ECF0C27A0556D00BB66A0 /* RebtelAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212ECF0B27A0556D00BB66A0 /* RebtelAssignmentTests.swift */; };
+		212ECF1627A0556D00BB66A0 /* RebtelAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212ECF1527A0556D00BB66A0 /* RebtelAssignmentUITests.swift */; };
+		212ECF1827A0556D00BB66A0 /* RebtelAssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212ECF1727A0556D00BB66A0 /* RebtelAssignmentUITestsLaunchTests.swift */; };
+		212ECF2927A05F0C00BB66A0 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 212ECF2827A05F0C00BB66A0 /* Alamofire */; };
+		212ECF2E27A0603900BB66A0 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212ECF2D27A0603900BB66A0 /* CountryListViewController.swift */; };
+		212ECF3027A0683C00BB66A0 /* CountryListEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212ECF2F27A0683C00BB66A0 /* CountryListEntity.swift */; };
+		212ECF3227A19F7100BB66A0 /* CountryListWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212ECF3127A19F7100BB66A0 /* CountryListWorker.swift */; };
+		212ECF3427A1A1E700BB66A0 /* CountryListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212ECF3327A1A1E700BB66A0 /* CountryListInteractor.swift */; };
+		212ECF3627A1A3B100BB66A0 /* CountryListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212ECF3527A1A3B100BB66A0 /* CountryListPresenter.swift */; };
+		212ECF3827A1AAAF00BB66A0 /* ClassConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212ECF3727A1AAAF00BB66A0 /* ClassConfiguration.swift */; };
+		21E13DAA27AEE7F0000D6CCA /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 21E13DA927AEE7F0000D6CCA /* SDWebImage */; };
+		21E13DAC27B054E4000D6CCA /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E13DAB27B054E4000D6CCA /* CountryTableViewCell.swift */; };
+		21E13DB127B06AD1000D6CCA /* CountryDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E13DB027B06AD1000D6CCA /* CountryDetailInteractor.swift */; };
+		21E13DB327B06E7D000D6CCA /* CountryListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E13DB227B06E7D000D6CCA /* CountryListRouter.swift */; };
+		21E13DB527B0754F000D6CCA /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E13DB427B0754F000D6CCA /* CountryDetailViewController.swift */; };
+		21E13DB727B07EFC000D6CCA /* CountryDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E13DB627B07EFC000D6CCA /* CountryDetailRouter.swift */; };
+		21E13DB927B159C1000D6CCA /* CountryDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E13DB827B159C1000D6CCA /* CountryDetailPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		212ECF0827A0556D00BB66A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212ECEE927A0556900BB66A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212ECEF027A0556900BB66A0;
+			remoteInfo = RebtelAssignment;
+		};
+		212ECF1227A0556D00BB66A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 212ECEE927A0556900BB66A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 212ECEF027A0556900BB66A0;
+			remoteInfo = RebtelAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		212ECEF127A0556900BB66A0 /* RebtelAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebtelAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		212ECEF427A0556900BB66A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		212ECEFB27A0556900BB66A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		212ECEFD27A0556D00BB66A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		212ECF0027A0556D00BB66A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		212ECF0227A0556D00BB66A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		212ECF0727A0556D00BB66A0 /* RebtelAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebtelAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		212ECF0B27A0556D00BB66A0 /* RebtelAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebtelAssignmentTests.swift; sourceTree = "<group>"; };
+		212ECF1127A0556D00BB66A0 /* RebtelAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebtelAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		212ECF1527A0556D00BB66A0 /* RebtelAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebtelAssignmentUITests.swift; sourceTree = "<group>"; };
+		212ECF1727A0556D00BB66A0 /* RebtelAssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebtelAssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		212ECF2D27A0603900BB66A0 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		212ECF2F27A0683C00BB66A0 /* CountryListEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListEntity.swift; sourceTree = "<group>"; };
+		212ECF3127A19F7100BB66A0 /* CountryListWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListWorker.swift; sourceTree = "<group>"; };
+		212ECF3327A1A1E700BB66A0 /* CountryListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListInteractor.swift; sourceTree = "<group>"; };
+		212ECF3527A1A3B100BB66A0 /* CountryListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListPresenter.swift; sourceTree = "<group>"; };
+		212ECF3727A1AAAF00BB66A0 /* ClassConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassConfiguration.swift; sourceTree = "<group>"; };
+		21E13DAB27B054E4000D6CCA /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		21E13DB027B06AD1000D6CCA /* CountryDetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryDetailInteractor.swift; sourceTree = "<group>"; };
+		21E13DB227B06E7D000D6CCA /* CountryListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListRouter.swift; sourceTree = "<group>"; };
+		21E13DB427B0754F000D6CCA /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
+		21E13DB627B07EFC000D6CCA /* CountryDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailRouter.swift; sourceTree = "<group>"; };
+		21E13DB827B159C1000D6CCA /* CountryDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		212ECEEE27A0556900BB66A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21E13DAA27AEE7F0000D6CCA /* SDWebImage in Frameworks */,
+				212ECF2927A05F0C00BB66A0 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212ECF0427A0556D00BB66A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212ECF0E27A0556D00BB66A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		212ECEE827A0556900BB66A0 = {
+			isa = PBXGroup;
+			children = (
+				212ECEF327A0556900BB66A0 /* RebtelAssignment */,
+				212ECF0A27A0556D00BB66A0 /* RebtelAssignmentTests */,
+				212ECF1427A0556D00BB66A0 /* RebtelAssignmentUITests */,
+				212ECEF227A0556900BB66A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		212ECEF227A0556900BB66A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				212ECEF127A0556900BB66A0 /* RebtelAssignment.app */,
+				212ECF0727A0556D00BB66A0 /* RebtelAssignmentTests.xctest */,
+				212ECF1127A0556D00BB66A0 /* RebtelAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		212ECEF327A0556900BB66A0 /* RebtelAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				212ECEF427A0556900BB66A0 /* AppDelegate.swift */,
+				21E13DAF27B06718000D6CCA /* Modules */,
+				212ECEFA27A0556900BB66A0 /* Main.storyboard */,
+				212ECEFD27A0556D00BB66A0 /* Assets.xcassets */,
+				212ECEFF27A0556D00BB66A0 /* LaunchScreen.storyboard */,
+				212ECF0227A0556D00BB66A0 /* Info.plist */,
+				212ECF3727A1AAAF00BB66A0 /* ClassConfiguration.swift */,
+			);
+			path = RebtelAssignment;
+			sourceTree = "<group>";
+		};
+		212ECF0A27A0556D00BB66A0 /* RebtelAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				212ECF0B27A0556D00BB66A0 /* RebtelAssignmentTests.swift */,
+			);
+			path = RebtelAssignmentTests;
+			sourceTree = "<group>";
+		};
+		212ECF1427A0556D00BB66A0 /* RebtelAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				212ECF1527A0556D00BB66A0 /* RebtelAssignmentUITests.swift */,
+				212ECF1727A0556D00BB66A0 /* RebtelAssignmentUITestsLaunchTests.swift */,
+			);
+			path = RebtelAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		21E13DAD27B066E3000D6CCA /* CountryList */ = {
+			isa = PBXGroup;
+			children = (
+				212ECF2D27A0603900BB66A0 /* CountryListViewController.swift */,
+				212ECF3327A1A1E700BB66A0 /* CountryListInteractor.swift */,
+				212ECF3527A1A3B100BB66A0 /* CountryListPresenter.swift */,
+				21E13DAB27B054E4000D6CCA /* CountryTableViewCell.swift */,
+				212ECF2F27A0683C00BB66A0 /* CountryListEntity.swift */,
+				212ECF3127A19F7100BB66A0 /* CountryListWorker.swift */,
+				21E13DB227B06E7D000D6CCA /* CountryListRouter.swift */,
+			);
+			path = CountryList;
+			sourceTree = "<group>";
+		};
+		21E13DAE27B066FC000D6CCA /* CountryDetail */ = {
+			isa = PBXGroup;
+			children = (
+				21E13DB027B06AD1000D6CCA /* CountryDetailInteractor.swift */,
+				21E13DB427B0754F000D6CCA /* CountryDetailViewController.swift */,
+				21E13DB627B07EFC000D6CCA /* CountryDetailRouter.swift */,
+				21E13DB827B159C1000D6CCA /* CountryDetailPresenter.swift */,
+			);
+			path = CountryDetail;
+			sourceTree = "<group>";
+		};
+		21E13DAF27B06718000D6CCA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				21E13DAD27B066E3000D6CCA /* CountryList */,
+				21E13DAE27B066FC000D6CCA /* CountryDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		212ECEF027A0556900BB66A0 /* RebtelAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212ECF1B27A0556D00BB66A0 /* Build configuration list for PBXNativeTarget "RebtelAssignment" */;
+			buildPhases = (
+				212ECEED27A0556900BB66A0 /* Sources */,
+				212ECEEE27A0556900BB66A0 /* Frameworks */,
+				212ECEEF27A0556900BB66A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RebtelAssignment;
+			packageProductDependencies = (
+				212ECF2827A05F0C00BB66A0 /* Alamofire */,
+				21E13DA927AEE7F0000D6CCA /* SDWebImage */,
+			);
+			productName = RebtelAssignment;
+			productReference = 212ECEF127A0556900BB66A0 /* RebtelAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		212ECF0627A0556D00BB66A0 /* RebtelAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212ECF1E27A0556D00BB66A0 /* Build configuration list for PBXNativeTarget "RebtelAssignmentTests" */;
+			buildPhases = (
+				212ECF0327A0556D00BB66A0 /* Sources */,
+				212ECF0427A0556D00BB66A0 /* Frameworks */,
+				212ECF0527A0556D00BB66A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212ECF0927A0556D00BB66A0 /* PBXTargetDependency */,
+			);
+			name = RebtelAssignmentTests;
+			productName = RebtelAssignmentTests;
+			productReference = 212ECF0727A0556D00BB66A0 /* RebtelAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		212ECF1027A0556D00BB66A0 /* RebtelAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 212ECF2127A0556D00BB66A0 /* Build configuration list for PBXNativeTarget "RebtelAssignmentUITests" */;
+			buildPhases = (
+				212ECF0D27A0556D00BB66A0 /* Sources */,
+				212ECF0E27A0556D00BB66A0 /* Frameworks */,
+				212ECF0F27A0556D00BB66A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212ECF1327A0556D00BB66A0 /* PBXTargetDependency */,
+			);
+			name = RebtelAssignmentUITests;
+			productName = RebtelAssignmentUITests;
+			productReference = 212ECF1127A0556D00BB66A0 /* RebtelAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		212ECEE927A0556900BB66A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					212ECEF027A0556900BB66A0 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					212ECF0627A0556D00BB66A0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 212ECEF027A0556900BB66A0;
+					};
+					212ECF1027A0556D00BB66A0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 212ECEF027A0556900BB66A0;
+					};
+				};
+			};
+			buildConfigurationList = 212ECEEC27A0556900BB66A0 /* Build configuration list for PBXProject "RebtelAssignment" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 212ECEE827A0556900BB66A0;
+			packageReferences = (
+				212ECF2727A05F0C00BB66A0 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				21E13DA827AEE7F0000D6CCA /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = 212ECEF227A0556900BB66A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				212ECEF027A0556900BB66A0 /* RebtelAssignment */,
+				212ECF0627A0556D00BB66A0 /* RebtelAssignmentTests */,
+				212ECF1027A0556D00BB66A0 /* RebtelAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		212ECEEF27A0556900BB66A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212ECF0127A0556D00BB66A0 /* LaunchScreen.storyboard in Resources */,
+				212ECEFE27A0556D00BB66A0 /* Assets.xcassets in Resources */,
+				212ECEFC27A0556900BB66A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212ECF0527A0556D00BB66A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212ECF0F27A0556D00BB66A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		212ECEED27A0556900BB66A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212ECF3227A19F7100BB66A0 /* CountryListWorker.swift in Sources */,
+				212ECF3827A1AAAF00BB66A0 /* ClassConfiguration.swift in Sources */,
+				212ECEF527A0556900BB66A0 /* AppDelegate.swift in Sources */,
+				21E13DB527B0754F000D6CCA /* CountryDetailViewController.swift in Sources */,
+				21E13DB327B06E7D000D6CCA /* CountryListRouter.swift in Sources */,
+				21E13DB927B159C1000D6CCA /* CountryDetailPresenter.swift in Sources */,
+				21E13DB127B06AD1000D6CCA /* CountryDetailInteractor.swift in Sources */,
+				212ECF3427A1A1E700BB66A0 /* CountryListInteractor.swift in Sources */,
+				21E13DAC27B054E4000D6CCA /* CountryTableViewCell.swift in Sources */,
+				21E13DB727B07EFC000D6CCA /* CountryDetailRouter.swift in Sources */,
+				212ECF2E27A0603900BB66A0 /* CountryListViewController.swift in Sources */,
+				212ECF3027A0683C00BB66A0 /* CountryListEntity.swift in Sources */,
+				212ECF3627A1A3B100BB66A0 /* CountryListPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212ECF0327A0556D00BB66A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212ECF0C27A0556D00BB66A0 /* RebtelAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		212ECF0D27A0556D00BB66A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212ECF1627A0556D00BB66A0 /* RebtelAssignmentUITests.swift in Sources */,
+				212ECF1827A0556D00BB66A0 /* RebtelAssignmentUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		212ECF0927A0556D00BB66A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212ECEF027A0556900BB66A0 /* RebtelAssignment */;
+			targetProxy = 212ECF0827A0556D00BB66A0 /* PBXContainerItemProxy */;
+		};
+		212ECF1327A0556D00BB66A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 212ECEF027A0556900BB66A0 /* RebtelAssignment */;
+			targetProxy = 212ECF1227A0556D00BB66A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		212ECEFA27A0556900BB66A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212ECEFB27A0556900BB66A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		212ECEFF27A0556D00BB66A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				212ECF0027A0556D00BB66A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		212ECF1927A0556D00BB66A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		212ECF1A27A0556D00BB66A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		212ECF1C27A0556D00BB66A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M22JT9U6KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RebtelAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RebtelAssignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		212ECF1D27A0556D00BB66A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M22JT9U6KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RebtelAssignment/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RebtelAssignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		212ECF1F27A0556D00BB66A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M22JT9U6KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RebtelAssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RebtelAssignment.app/RebtelAssignment";
+			};
+			name = Debug;
+		};
+		212ECF2027A0556D00BB66A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M22JT9U6KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RebtelAssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RebtelAssignment.app/RebtelAssignment";
+			};
+			name = Release;
+		};
+		212ECF2227A0556D00BB66A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M22JT9U6KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RebtelAssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RebtelAssignment;
+			};
+			name = Debug;
+		};
+		212ECF2327A0556D00BB66A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M22JT9U6KZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.RebtelAssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RebtelAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		212ECEEC27A0556900BB66A0 /* Build configuration list for PBXProject "RebtelAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212ECF1927A0556D00BB66A0 /* Debug */,
+				212ECF1A27A0556D00BB66A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212ECF1B27A0556D00BB66A0 /* Build configuration list for PBXNativeTarget "RebtelAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212ECF1C27A0556D00BB66A0 /* Debug */,
+				212ECF1D27A0556D00BB66A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212ECF1E27A0556D00BB66A0 /* Build configuration list for PBXNativeTarget "RebtelAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212ECF1F27A0556D00BB66A0 /* Debug */,
+				212ECF2027A0556D00BB66A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		212ECF2127A0556D00BB66A0 /* Build configuration list for PBXNativeTarget "RebtelAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				212ECF2227A0556D00BB66A0 /* Debug */,
+				212ECF2327A0556D00BB66A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		212ECF2727A05F0C00BB66A0 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		21E13DA827AEE7F0000D6CCA /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		212ECF2827A05F0C00BB66A0 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 212ECF2727A05F0C00BB66A0 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		21E13DA927AEE7F0000D6CCA /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21E13DA827AEE7F0000D6CCA /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 212ECEE927A0556900BB66A0 /* Project object */;
+}
